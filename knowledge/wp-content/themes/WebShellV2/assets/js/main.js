@@ -1,0 +1,8 @@
+jQuery(document).ready(function($){if(site_ajax_search==1){var input_search=$("#search-input");function makeAjaxSearch(result){if(result.length==0){$("#search_filtered").empty().show().append('<li><a href="javascript:vold(0)"><strong>这能搜到吗？</strong></a></li>');}else{$("#search_filtered").empty().show();for(var i=0;i<result.length;i++)$("#search_filtered").append('<li><a href="'+result[i]["url"]+'">'+result[i]["title"]+'</a></li>');}}
+var delaySearch;function startSearch(){$.ajax({type:"GET",url:home_url,data:"action=sevenstar_search&s="+input_search.val(),dataType:'json',success:function(result){makeAjaxSearch(result);console.log(result);}});}
+var event_ajax_search={bind_event:function(){input_search.bind('keyup',function(e){if(input_search.val()!=""&&e.keyCode!=40){if(delaySearch){clearTimeout(delaySearch)}
+delaySearch=setTimeout(startSearch,200);}else if(input_search.val()==""){$("#search_filtered").empty().hide();}
+if(e.keyCode==40){search_filtered.moveable();}})},unbind_event:function(){input_search.unbind('keyup');}};var search_filtered={moveable:function(){var current=0;$('#search_filtered').find('a').eq(current).focus();$(document).bind("keydown.search_result",function(e){if(e.keyCode==40){if(current>=$('#search_filtered').find('a').size()){current=0;}
+$('#search_filtered').find('a').eq(++current).focus();e.preventDefault();}
+if(e.keyCode==38){if(current<0){current=$('#search_filtered').find('a').size()-1;}
+$('#search_filtered').find('a').eq(--current).focus();e.preventDefault();}});},hide:function(){$(document).unbind("keyup.search_result");$('#search_filtered').fadeOut();}};input_search.focus(function(){event_ajax_search.bind_event();}).blur(function(){event_ajax_search.unbind_event();});}});
