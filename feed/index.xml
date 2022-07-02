@@ -12,7 +12,7 @@
 	<atom:link href="https://freeme.cc/feed" rel="self" type="application/rss+xml" />
 	<link>https://freeme.cc/</link>
 	<description></description>
-	<lastBuildDate>Sat, 18 Jun 2022 13:26:12 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 02 Jul 2022 14:35:57 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,21 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>Telegram 电报多家社工库机器人被官方封禁</title>
+		<link>https://freeme.cc/301.html</link>
+		
+		<dc:creator><![CDATA[Alien]]></dc:creator>
+		<pubDate>Sat, 02 Jul 2022 14:35:57 +0000</pubDate>
+				<category><![CDATA[security]]></category>
+		<category><![CDATA[社工库]]></category>
+		<guid isPermaLink="false">https://freeme.cc/?p=301</guid>
+
+					<description><![CDATA[Telegram 电报社工库机器人注销ID？ 中国免费社工库机器人@Freesgkbot 已被封禁,俄罗斯社工 [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
 		<title>acunetix 14.8 cracked 破解版</title>
 		<link>https://freeme.cc/257.html</link>
 					<comments>https://freeme.cc/257.html#respond</comments>
@@ -32,46 +47,7 @@
 		<guid isPermaLink="false">https://freeme.cc/?p=257</guid>
 
 					<description><![CDATA[目前仅有Windows原包 新功能 JAVA IAST 传感器现在支持 JBoss、Jetty 和 Wildf [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p>目前仅有Windows原包</p>
-<p><strong>新功能</strong><br />
-JAVA IAST 传感器现在支持 JBoss、Jetty 和 Wildfly JAVA 服务器<br />
-改进了对 Servlet3 和 Jersey JAVA 框架的支持<br />
-更新漏洞检查<br />
-更新 IAST 检查表达式语言注入<br />
-更新 IAST 检查Hibernate 查询注入<br />
-Apache OFBiz Log4Shell RCE的新测试( CVE-2021-44228 )<br />
-更新 WordPress 插件检查<br />
-更新的 JavaScript 审计检查</p>
-<p><strong>修复</strong></p>
-<p>修复导致 AcuSensor 检测到的某些漏洞未显示为 AcuSensor 已验证的问题<br />
-修复导致路由不被 JAVA IAST 传感器列出的问题<br />
-修复Target CSV 导入中的 2 个问题<br />
-修复导致 SCA 无法在 JAVA Spring Boot Web 应用程序上执行的问题<br />
-修复导致某些检查无法对带有安全标志的 cookie 执行的问题</p>
-<p><strong>更新日志</strong></p>
-<p><a target="_blank" href="https://www.acunetix.com/support/build-history/">https://www.acunetix.com/support/build-history/</a></p>
-<p><strong>破解方法</strong><br />
-1、修改HOSTS文件，添加如下解析</p>
-<pre>127.0.0.1 updates.acunetix.com
-127.0.0.1 erp.acunetix.com</pre>
-<p>2、license_info.json、wa_data.dat文件移动到以下目录</p>
-<p>Windows</p>
-<pre>C:/ProgramData/Acunetix/shared/license/</pre>
-<p>Mac</p>
-<pre>/Applications/Acunetix.app/Contents/Resources/data/license/</pre>
-<p>Linux</p>
-<pre>/home/acunetix/.acunetix/data/license/</pre>
-<p>3、license_info.json权限改为<strong>只读</strong></p>
-<p>&nbsp;</p>
-<p><strong>下载<br />
-</strong>破解：<a target="_blank" href="https://anonfiles.com/l1W014q2yb/crack_zip">https://anonfiles.com/l1W014q2yb/crack_zip</a><br />
-原包：<a target="_blank" href="https://anonfiles.com/17Z61bq7yb/acunetix_14.8.220606174_exe">https://anonfiles.com/17Z61bq7yb/acunetix_14.8.220606174_exe</a><br />
-<strong>仅供研究学习，请遵守您当地的法律法规，如需商用请购买正版。</strong></p>
-<p>virustotal：<a target="_blank" href="https://www.virustotal.com/gui/file/2b66c78d498135fc4365912e9ee10b45ab54f1d8f53b7fe6e5fcbd1e47a92ecb">https://www.virustotal.com/gui/file/2b66c78d498135fc4365912e9ee10b45ab54f1d8f53b7fe6e5fcbd1e47a92ecb</a></p>
-<p><strong>测试截图</strong>：<br />
-<img loading="lazy" class="alignnone wp-image-259 size-large" src="https://freeme.cc/wp-content/uploads/2022/06/2022061813075961-1024x352.png" alt="" width="1024" height="352" srcset="https://freeme.cc/wp-content/uploads/2022/06/2022061813075961-1024x352.png?v=1655557681 1024w, https://freeme.cc/wp-content/uploads/2022/06/2022061813075961-300x103.png?v=1655557681 300w, https://freeme.cc/wp-content/uploads/2022/06/2022061813075961-768x264.png?v=1655557681 768w, https://freeme.cc/wp-content/uploads/2022/06/2022061813075961-1536x529.png?v=1655557681 1536w, https://freeme.cc/wp-content/uploads/2022/06/2022061813075961.png?v=1655557681 1566w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
-]]></content:encoded>
-					
+		
 					<wfw:commentRss>https://freeme.cc/257.html/feed</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
@@ -90,30 +66,7 @@ Apache OFBiz Log4Shell RCE的新测试( CVE-2021-44228 )<br />
 		<guid isPermaLink="false">https://freeme.cc/?p=227</guid>
 
 					<description><![CDATA[该项目使用python开发，并使用Tor Installation Clone the repo $ git  [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p>该项目使用python开发，并使用Tor</p>
-<p><img loading="lazy" class="alignnone wp-image-228 size-large" src="https://freeme.cc/wp-content/uploads/2022/06/2022060819012930-1024x388.png" alt="" width="1024" height="388" srcset="https://freeme.cc/wp-content/uploads/2022/06/2022060819012930-1024x388.png?v=1654714892 1024w, https://freeme.cc/wp-content/uploads/2022/06/2022060819012930-300x114.png?v=1654714892 300w, https://freeme.cc/wp-content/uploads/2022/06/2022060819012930-768x291.png?v=1654714892 768w, https://freeme.cc/wp-content/uploads/2022/06/2022060819012930-1536x581.png?v=1654714892 1536w, https://freeme.cc/wp-content/uploads/2022/06/2022060819012930.png?v=1654714892 1892w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
-<h3 dir="auto">Installation</h3>
-<ol dir="auto">
-<li>Clone the repo
-<div class="highlight highlight-source-shell notranslate position-relative overflow-auto">
-<pre>$ git clone https://github.com/samet-g/tornado.git</pre>
-</div>
-</li>
-<li>Setup tornado with requirement packages.
-<div class="highlight highlight-source-shell notranslate position-relative overflow-auto">
-<pre>$ sudo python3 setup.py install</pre>
-</div>
-</li>
-<li>Run it with sudo permissions.
-<div class="highlight highlight-source-shell notranslate position-relative overflow-auto">
-<pre>$ sudo tornado</pre>
-</div>
-</li>
-</ol>
-<p>必须使用sudo权限运行，项目地址：https://github.com/samet-g/tornado</p>
-<p>&nbsp;</p>
-]]></content:encoded>
-					
+		
 					<wfw:commentRss>https://freeme.cc/227.html/feed</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
@@ -130,14 +83,7 @@ Apache OFBiz Log4Shell RCE的新测试( CVE-2021-44228 )<br />
 		<guid isPermaLink="false">https://freeme.cc/?p=218</guid>
 
 					<description><![CDATA[虽然ajax搜索看起来很舒服，也很方便，但流量过大时非常占用服务器资源。 加验证码就失去了它的便捷，没有意义。 [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p>虽然ajax搜索看起来很舒服，也很方便，但流量过大时非常占用服务器资源。</p>
-<p>加验证码就失去了它的便捷，没有意义。因此一直想把博客改为纯静态。</p>
-<p>不占用服务器资源的同时也避免了小规模CC攻击的威胁。</p>
-<p>具体实现可参考：</p>
-<p>https://blog.csdn.net/dream_mocking/article/details/6081458</p>
-<p>&nbsp;</p>
-]]></content:encoded>
-					
+		
 					<wfw:commentRss>https://freeme.cc/218.html/feed</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
@@ -155,13 +101,7 @@ Apache OFBiz Log4Shell RCE的新测试( CVE-2021-44228 )<br />
 		<guid isPermaLink="false">https://freeme.cc/?p=211</guid>
 
 					<description><![CDATA[项目地址 https://github.com/s0md3v/Arjun 当我们发现敏感文件,且前端没有找到传 [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p>项目地址 https://github.com/s0md3v/Arjun</p>
-<p>当我们发现敏感文件,且前端没有找到传递参数时,可以使用此工具模糊测试.</p>
-<p>&nbsp;</p>
-<pre class="python;gutter:true;">python arjun.py -u https://api.example.com/endpoint --get or --post -t 1 线程 -d 1延迟 --headers 请求头</pre>
-<p>&nbsp;</p>
-]]></content:encoded>
-					
+		
 					<wfw:commentRss>https://freeme.cc/211.html/feed</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
@@ -181,15 +121,7 @@ Apache OFBiz Log4Shell RCE的新测试( CVE-2021-44228 )<br />
 		<guid isPermaLink="false">https://freeme.cc/?p=165</guid>
 
 					<description><![CDATA[今天BypassAv时踩了一个坑 记录一下 玩web,C++很少有交集.shellcode加载器编译时使用了  [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p>今天BypassAv时踩了一个坑 记录一下</p>
-<p>玩web,C++很少有交集.shellcode加载器编译时使用了</p>
-<p>#pragma comment(linker,&#8221;/subsystem:\&#8221;windows\&#8221; /entry:\&#8221;mainCRTStartup\&#8221;&#8221;) //来屏蔽控制台窗口</p>
-<p>编译后运行正常,但控制台窗口还在,折腾好一会.</p>
-<blockquote><p>g++ test.cpp -mwindows</p></blockquote>
-<p>不再显示控制台窗口,问题解决</p>
-<p><img loading="lazy" class="alignnone wp-image-167 size-large" src="https://freeme.cc/wp-content/uploads/2022/05/2022053102333463-1024x608.png" alt="" width="1024" height="608" srcset="https://freeme.cc/wp-content/uploads/2022/05/2022053102333463-1024x608.png?v=1653964415 1024w, https://freeme.cc/wp-content/uploads/2022/05/2022053102333463-300x178.png?v=1653964415 300w, https://freeme.cc/wp-content/uploads/2022/05/2022053102333463-768x456.png?v=1653964415 768w, https://freeme.cc/wp-content/uploads/2022/05/2022053102333463.png?v=1653964415 1132w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
-]]></content:encoded>
-					
+		
 					<wfw:commentRss>https://freeme.cc/165.html/feed</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
@@ -206,12 +138,7 @@ Apache OFBiz Log4Shell RCE的新测试( CVE-2021-44228 )<br />
 		<guid isPermaLink="false">https://freeme.cc/?p=159</guid>
 
 					<description><![CDATA[破帽遮颜过闹市 漏船载酒泛中流 躲进小楼成一统 管他冬夏与春秋]]></description>
-										<content:encoded><![CDATA[<p><strong>破帽遮颜过闹市</strong><br />
-<strong>漏船载酒泛中流</strong><br />
-<strong>躲进小楼成一统</strong><br />
-<strong>管他冬夏与春秋</strong></p>
-]]></content:encoded>
-					
+		
 					<wfw:commentRss>https://freeme.cc/159.html/feed</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
@@ -228,12 +155,7 @@ Apache OFBiz Log4Shell RCE的新测试( CVE-2021-44228 )<br />
 		<guid isPermaLink="false">https://freeme.cc/?p=135</guid>
 
 					<description><![CDATA[最近经常看到有一些人在俄乌相关新闻下评论&#8217;和平是战争换来的&#8217;. 这种观点毫无逻辑,即使 [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p>最近经常看到有一些人在俄乌相关新闻下评论&#8217;和平是战争换来的&#8217;.</p>
-<p>这种观点毫无逻辑,即使乌被俄收入囊中，也会有下一个&#8217;战略缓冲区&#8217;,永无止境.</p>
-<p>病毒肆虐&amp;经济下行的当下,发动战争的政客竟有直接受害者去维护.</p>
-<p>?</p>
-]]></content:encoded>
-					
+		
 					<wfw:commentRss>https://freeme.cc/135.html/feed</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
@@ -254,40 +176,7 @@ Apache OFBiz Log4Shell RCE的新测试( CVE-2021-44228 )<br />
 		<guid isPermaLink="false">https://freeme.cc/?p=113</guid>
 
 					<description><![CDATA[总结一些常用的在线工具与搜索引擎 多地 GET PING https://17ce.com/ IP反查 htt [&#8230;]]]></description>
-										<content:encoded><![CDATA[<h3>总结一些常用的在线工具与搜索引擎</h3>
-<p><strong>多地 GET PING</strong></p>
-<p>https://17ce.com/</p>
-<p><strong>IP反查</strong></p>
-<p>https://dnslytics.com/</p>
-<p><strong>web信息查询</strong></p>
-<p>https://www.virustotal.com/gui/home/upload/</p>
-<p><strong>端口扫描</strong></p>
-<p>http://nmap.online-domain-tools.com/</p>
-<p><strong>微步情报社区</strong> 查询域名whois历史及文件hash/mail/漏洞,提供api</p>
-<p>https://x.threatbook.cn/</p>
-<p><strong>PHP混淆解码</strong></p>
-<p>https://www.unphp.net/</p>
-<p><strong>XEE</strong></p>
-<p>https://web2hack.org/xssee/</p>
-<p><strong>在线编解码</strong></p>
-<p>http://tools.jb51.net/transcoding/</p>
-<p><strong>JS混淆</strong></p>
-<p>https://www.sojson.com/encrypt/</p>
-<p><strong>DNS信息查询</strong></p>
-<p>https://dnsdumpster.com/</p>
-<p><strong>网络空间搜索引擎</strong>,提供API</p>
-<p>https://fofa.so/</p>
-<p>https://www.shodan.io/</p>
-<p>https://www.zoomeye.org/</p>
-<p>https://censys.io/</p>
-<p>[dns]</p>
-<p>https://www.dnsdb.io/</p>
-<p><strong>web靶场</strong></p>
-<p>https://hackme.cyberprotex.com/</p>
-<p><strong>EXP查询</strong></p>
-<p>https://www.exploit-db.com/</p>
-]]></content:encoded>
-					
+		
 					<wfw:commentRss>https://freeme.cc/113.html/feed</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
@@ -306,69 +195,8 @@ Apache OFBiz Log4Shell RCE的新测试( CVE-2021-44228 )<br />
 		<guid isPermaLink="false">https://freeme.cc/?p=77</guid>
 
 					<description><![CDATA[一、关于 本文尽量以覆盖常见web安全漏洞的测试为目的, 且以中高危漏洞的检测为主,低危漏洞暂不考虑. 建议测 [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p><strong>一、关于 </strong></p>
-<p>本文尽量以覆盖常见web安全漏洞的测试为目的, 且以中高危漏洞的检测为主,低危漏洞暂不考虑.</p>
-<p>建议测试的漏洞类型包含: 任意文件上传、SQL 注入、命令注入、代码执行、存储型 XSS、SSRF、XXE、任意文件读取.</p>
-<p><strong>二、流程</strong></p>
-<p>测试流程一般分为2步,扫描器测试和人工测试,如下分别介绍. 1、扫描器测试 扫描器选择Burpsuite(或者其他工具),Burpsuite可覆盖所有常见web漏洞. 使用流程如下：</p>
-<p>1）选择Target功能标签</p>
-<p><img loading="lazy" class="alignnone wp-image-79 size-full" src="https://freeme.cc/wp-content/uploads/2021/12/2021122405030771.png" alt="" width="547" height="300" srcset="https://freeme.cc/wp-content/uploads/2021/12/2021122405030771.png 547w, https://freeme.cc/wp-content/uploads/2021/12/2021122405030771-300x165.png 300w" sizes="(max-width: 547px) 100vw, 547px" /></p>
-<p>2）在需要扫描的的目标url上右键弹出菜单</p>
-<p>3）在弹出的菜单上选择Spider this host</p>
-<p>4）过一段时间后查看Spider功能标签查看是否完成爬虫 <img loading="lazy" class="alignnone wp-image-80 size-full" src="https://freeme.cc/wp-content/uploads/2021/12/2021122405035035.png" alt="" width="542" height="276" srcset="https://freeme.cc/wp-content/uploads/2021/12/2021122405035035.png 542w, https://freeme.cc/wp-content/uploads/2021/12/2021122405035035-300x153.png 300w" sizes="(max-width: 542px) 100vw, 542px" /></p>
-<p>如果Requests queued和Forms queued都是0则代表完成了爬虫。</p>
-<p>5）在Target功能标签里右键单击目标域名,并选择Actively scan this host <img loading="lazy" class="alignnone wp-image-81 size-full" src="https://freeme.cc/wp-content/uploads/2021/12/2021122405043154.png" alt="" width="546" height="307" srcset="https://freeme.cc/wp-content/uploads/2021/12/2021122405043154.png 546w, https://freeme.cc/wp-content/uploads/2021/12/2021122405043154-300x169.png 300w" sizes="(max-width: 546px) 100vw, 546px" /></p>
-<p>6）查看Scanner功能标签中的扫描情况,如下图所示 <img loading="lazy" class="alignnone wp-image-82 size-full" src="https://freeme.cc/wp-content/uploads/2021/12/2021122405051423.png" alt="" width="535" height="304" srcset="https://freeme.cc/wp-content/uploads/2021/12/2021122405051423.png 535w, https://freeme.cc/wp-content/uploads/2021/12/2021122405051423-300x170.png 300w" sizes="(max-width: 535px) 100vw, 535px" /></p>
-<p>2、人工测试 扫描器的测试方法是污染参数的正常数据，通过服务器返回响应内容判断漏洞是否存在， 可覆盖大部分的测试范围,但存在下面几种情况无法直接被扫描器测试.</p>
-<p>1）参数内容被加密（如对称加密,非对称加密）</p>
-<p>2）参数有其他限制（如测试url有csrftoken等防御措施）</p>
-<p>3）参数的内容不是正常的格式（如json格式,序列化字符串）</p>
-<p>4）漏洞触发需要多个页面的联合操作（如存储型xss,二次sql注入）</p>
-<p>5）逻辑漏洞（如整数溢出，越权）</p>
-<p>6）通过js生成的请求（这种情况js生成post请求较多）</p>
-<p>7）服务器前面有waf防护</p>
-<p>可根据burpsuite的Proxy|HTTP history中的URL来检查有没有满足以上条件的请求,如下图： <img loading="lazy" class="alignnone wp-image-83 size-full" src="https://freeme.cc/wp-content/uploads/2021/12/2021122405063795.png" alt="" width="536" height="296" srcset="https://freeme.cc/wp-content/uploads/2021/12/2021122405063795.png 536w, https://freeme.cc/wp-content/uploads/2021/12/2021122405063795-300x166.png 300w" sizes="(max-width: 536px) 100vw, 536px" /></p>
-<p>现对这几种情况分别简单举例：</p>
-<p>1）参数内容被加密 待测试url为：https://www.test.com/?a=bmloYW8=</p>
-<p>这里参数a的值是bmloYW8=,猜测是base64编码后的内容,经检验可base64解码, 说明较大概率是服务器接收参数值后会先经过base64解码再响应, 于是测试时需要将污染数据先经过base64编码再发送到服务器. 可通过自行编码实现这个功能或通过sqlmap中的eval功能来实现测试.</p>
-<p>2）参数有其他限制 待测试url有csrftoken保护,这种情况也可以通过自行编码或者sqlmap的csrf-token和csrf-url功能来实现测试，详情可参考 sqlmap –hh | grep csrf</p>
-<p>3）参数的内容不是正常的格式 待测试url为：https://www.test.com/?a={‘p1’:v1,’p2’:v2}</p>
-<p>这里参数 a 的值是{‘p1’:v1,’p2’:v2},也即通过字典类型传参, 这种情况可通过sqlmap检测或手动编码实现检测. Sqlmap 检测命令：(这里检测 a 参数中的 p1 参数) sqlmap –u “https://www.test.com/?a={‘p1’:v1*,’p2’:v2}”</p>
-<p>4）漏洞触发需要多个页面的联合操作 待测试url为：https://www.test.com/?a=value</p>
-<p>a 的内容会被存储到数据库中并在管理员后台显示,这种情况需要xss平台来检测 a 参数是否存在存储型 xss 漏洞.</p>
-<p>5）逻辑漏洞 待测试url为：https://www.test.com/?a=value</p>
-<p>这里的 a 传入的值为付款的值,如在前端页面正常的值是 100 元,测试时可通过burpsuite的proxy功能将100修改成0或-1等,通过查看响应是否支付成功判断是否存在逻辑漏洞.</p>
-<p>6）通过js生成的请求 GET请求访问 https://www.test.com/?a=value 后发现响应内容中有js,</p>
-<p>且js会自动生成一个如下的POST请求：</p>
-<p><img loading="lazy" class="alignnone wp-image-84 size-full" src="https://freeme.cc/wp-content/uploads/2021/12/2021122405081291.png" alt="" width="540" height="207" srcset="https://freeme.cc/wp-content/uploads/2021/12/2021122405081291.png 540w, https://freeme.cc/wp-content/uploads/2021/12/2021122405081291-300x115.png 300w" sizes="(max-width: 540px) 100vw, 540px" /></p>
-<p>这种通过 js 生成的请求无法通过burpsuite等扫描器测试到,需要自行捕获并测试.</p>
-<p>如在burpsuite中测试可通过右键Do an active scan功能实现. <img loading="lazy" class="alignnone wp-image-85 size-full" src="https://freeme.cc/wp-content/uploads/2021/12/2021122405095034.png" alt="" width="550" height="289" srcset="https://freeme.cc/wp-content/uploads/2021/12/2021122405095034.png 550w, https://freeme.cc/wp-content/uploads/2021/12/2021122405095034-300x158.png 300w" sizes="(max-width: 550px) 100vw, 550px" /></p>
-<p>7）服务器有waf防护 这种情况下只能靠个人经验测试,可尝试不同的waf绕过手段测试.</p>
-]]></content:encoded>
-					
+		
 					<wfw:commentRss>https://freeme.cc/77.html/feed</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>开源linux提权辅助工具-linux-smart-enumeration</title>
-		<link>https://freeme.cc/72.html</link>
-					<comments>https://freeme.cc/72.html#respond</comments>
-		
-		<dc:creator><![CDATA[Alien]]></dc:creator>
-		<pubDate>Fri, 24 Dec 2021 03:01:24 +0000</pubDate>
-				<category><![CDATA[Tools]]></category>
-		<category><![CDATA[工具]]></category>
-		<guid isPermaLink="false">https://freeme.cc/?p=72</guid>
-
-					<description><![CDATA[此shell脚本可自动枚举linux系统环境下可利用提权的细节 省时省力 项目地址:https://githu/ [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p>此shell脚本可自动枚举linux系统环境下可利用提权的细节</p>
-<p>省时省力</p>
-<p>项目地址:https://github.com/diego-treitos/linux-smart-enumeration</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://freeme.cc/72.html/feed</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
