@@ -12,7 +12,7 @@
 	<atom:link href="https://freeme.cc/feed" rel="self" type="application/rss+xml" />
 	<link>https://freeme.cc/</link>
 	<description></description>
-	<lastBuildDate>Sat, 02 Jul 2022 14:35:57 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 02 Jul 2022 17:53:21 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,21 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>疑似中国史上最大规模公民信息数据泄露</title>
+		<link>https://freeme.cc/304.html</link>
+		
+		<dc:creator><![CDATA[Alien]]></dc:creator>
+		<pubDate>Sat, 02 Jul 2022 17:51:51 +0000</pubDate>
+				<category><![CDATA[security]]></category>
+		<category><![CDATA[社工库]]></category>
+		<guid isPermaLink="false">https://freeme.cc/?p=304</guid>
+
+					<description><![CDATA[十亿余条公民信息及几十余亿*情数据以10BTC的价格在某黑客论坛出售. 泄露数据文件大小23.88TB 泄露内 [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
 		<title>Telegram 电报多家社工库机器人被官方封禁</title>
 		<link>https://freeme.cc/301.html</link>
 		
@@ -178,25 +193,6 @@
 					<description><![CDATA[总结一些常用的在线工具与搜索引擎 多地 GET PING https://17ce.com/ IP反查 htt [&#8230;]]]></description>
 		
 					<wfw:commentRss>https://freeme.cc/113.html/feed</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Web安全测试常规流程</title>
-		<link>https://freeme.cc/77.html</link>
-					<comments>https://freeme.cc/77.html#respond</comments>
-		
-		<dc:creator><![CDATA[Alien]]></dc:creator>
-		<pubDate>Fri, 24 Dec 2021 05:24:56 +0000</pubDate>
-				<category><![CDATA[Knowledge]]></category>
-		<category><![CDATA[security]]></category>
-		<category><![CDATA[渗透测试]]></category>
-		<guid isPermaLink="false">https://freeme.cc/?p=77</guid>
-
-					<description><![CDATA[一、关于 本文尽量以覆盖常见web安全漏洞的测试为目的, 且以中高危漏洞的检测为主,低危漏洞暂不考虑. 建议测 [&#8230;]]]></description>
-		
-					<wfw:commentRss>https://freeme.cc/77.html/feed</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
