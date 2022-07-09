@@ -12,7 +12,7 @@
 	<atom:link href="https://freeme.cc/feed" rel="self" type="application/rss+xml" />
 	<link>https://freeme.cc/</link>
 	<description></description>
-	<lastBuildDate>Tue, 05 Jul 2022 07:36:59 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 09 Jul 2022 16:43:51 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,22 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>某加密货币交易所漏洞 文件上传RCE</title>
+		<link>https://freeme.cc/355.html</link>
+		
+		<dc:creator><![CDATA[Alien]]></dc:creator>
+		<pubDate>Sat, 09 Jul 2022 16:42:43 +0000</pubDate>
+				<category><![CDATA[security]]></category>
+		<category><![CDATA[0day]]></category>
+		<category><![CDATA[渗透测试]]></category>
+		<guid isPermaLink="false">https://freeme.cc/?p=355</guid>
+
+					<description><![CDATA[前台RCE 信息收集老生常谈了,不多赘述 注册需要邀请码 a-z 0-9 从四字符开始爆破 注册成功,在添加钱 [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
 		<title>初识木马反检测技术</title>
 		<link>https://freeme.cc/322.html</link>
 		
@@ -172,23 +188,6 @@
 					<description><![CDATA[破帽遮颜过闹市 漏船载酒泛中流 躲进小楼成一统 管他冬夏与春秋]]></description>
 		
 					<wfw:commentRss>https://freeme.cc/159.html/feed</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>珍惜和平 反对战争</title>
-		<link>https://freeme.cc/135.html</link>
-					<comments>https://freeme.cc/135.html#respond</comments>
-		
-		<dc:creator><![CDATA[Alien]]></dc:creator>
-		<pubDate>Tue, 01 Mar 2022 21:07:17 +0000</pubDate>
-				<category><![CDATA[Life]]></category>
-		<guid isPermaLink="false">https://freeme.cc/?p=135</guid>
-
-					<description><![CDATA[最近经常看到有一些人在俄乌相关新闻下评论&#8217;和平是战争换来的&#8217;. 这种观点毫无逻辑,即使 [&#8230;]]]></description>
-		
-					<wfw:commentRss>https://freeme.cc/135.html/feed</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
