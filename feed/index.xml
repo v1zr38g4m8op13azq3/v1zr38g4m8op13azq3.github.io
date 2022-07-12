@@ -12,7 +12,7 @@
 	<atom:link href="https://freeme.cc/feed" rel="self" type="application/rss+xml" />
 	<link>https://freeme.cc/</link>
 	<description></description>
-	<lastBuildDate>Sat, 09 Jul 2022 16:43:51 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 12 Jul 2022 18:57:05 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,22 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>密码重置漏洞备忘录</title>
+		<link>https://freeme.cc/371.html</link>
+		
+		<dc:creator><![CDATA[Alien]]></dc:creator>
+		<pubDate>Tue, 12 Jul 2022 18:14:58 +0000</pubDate>
+				<category><![CDATA[security]]></category>
+		<category><![CDATA[渗透测试]]></category>
+		<category><![CDATA[钓鱼]]></category>
+		<guid isPermaLink="false">https://freeme.cc/?p=371</guid>
+
+					<description><![CDATA[密码重置 将Host替换为你的服务器 Host: attackers-domain.com 双主机头绕过 修改 [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
 		<title>某加密货币交易所漏洞 文件上传RCE</title>
 		<link>https://freeme.cc/355.html</link>
 		
@@ -171,23 +187,6 @@
 					<description><![CDATA[今天BypassAv时踩了一个坑 记录一下 玩web,C++很少有交集.shellcode加载器编译时使用了  [&#8230;]]]></description>
 		
 					<wfw:commentRss>https://freeme.cc/165.html/feed</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>鲁迅</title>
-		<link>https://freeme.cc/159.html</link>
-					<comments>https://freeme.cc/159.html#respond</comments>
-		
-		<dc:creator><![CDATA[Alien]]></dc:creator>
-		<pubDate>Thu, 05 May 2022 02:27:47 +0000</pubDate>
-				<category><![CDATA[Life]]></category>
-		<guid isPermaLink="false">https://freeme.cc/?p=159</guid>
-
-					<description><![CDATA[破帽遮颜过闹市 漏船载酒泛中流 躲进小楼成一统 管他冬夏与春秋]]></description>
-		
-					<wfw:commentRss>https://freeme.cc/159.html/feed</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
