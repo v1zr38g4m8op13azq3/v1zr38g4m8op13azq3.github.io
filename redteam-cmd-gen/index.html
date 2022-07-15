@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FreeMe - Red Team Command Generator</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="icon" href="https://freeme.cc/redteam-cmd-gen/favicon.ico" type="image/ico" sizes="16x16">
+<link href="https://freeme.cc/redteam-cmd-gen/assets/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://freeme.cc/redteam-cmd-gen/css/dark-mode.css">
+<meta name="keywords" content="FreeMe,cyber security,Red Team Command Generator,redteam,Penetration testing">
+<meta name="description" content="Online Red Team Command Generator with Local Storage functionality, URI & Base64 Encoding, MSFVenom Generator, and Raw Mode. Great for CTFs.">
+<style></style>
+</head>
+<body class="bg-black">
+<div class="container d-flex flex-column vh-100">
+<div class="custom-control float-right" style="margin-left: -25px;">
+</div>
+
+<div class="mb-auto row justify-content-center mb-5">
+<h2 class="rainbow">Red Team Command Generator</h2>
+</div>
+<div class="row">
+
+<div class="col-12 col-md-6 mb-4">
+<div class="card shadow h-100">
+<div class="card-body">
+<h5 class="card-title mb-0">
+<b>😈VPS</b>
+</h5>
+
+<div class="card-text h-100">
+<form class="row justify-content-center align-items">
+
+<div class="col-auto mt-4">
+<div class="input-group">
+<div class="input-group-prepend">
+<span id="vps-ip-label" class="input-group-text">VPS IP</span>
+</div>
+<input id="ip" type="text" class="form-control form-control-lg text-center px-1" size="12VW" maxlength="15" aria-label="IP" aria-describedby="ip-label">
+</div>
+</div>
+
+<div class="col-auto mt-4">
+<div class="input-group" data-toggle="tooltip">
+<div class="input-group-prepend">
+<span id="vps-port-label" class="input-group-text">VPS Port</span>
+</div>
+<input id="port" type="text" class="form-control form-control-lg text-center" size="6vw" maxlength="5" aria-label="Port" aria-describedby="port-label">
+<div class="input-group-append">
+<button id="inc-port" class="btn btn-secondary btn-sm" type="button" style="font-size: 1rem" data-toggle="tooltip" title="Increase port number by one">
++1
+</button>
+</div>
+</div>
+</div>
+
+<div class="col-auto mt-4">
+<div class="input-group" data-toggle="tooltip">
+<div class="input-group-prepend">
+<span id="vps-httpPort-label" class="input-group-text">HTTP Port</span>
+</div>
+<input id="httpPort" type="text" class="form-control form-control-lg text-center" size="6vw" maxlength="5" aria-label="Port" aria-describedby="port-label">
+<div class="input-group-append">
+<button id="inc-httpPort" class="btn btn-secondary btn-sm" type="button" style="font-size: 1rem" data-toggle="tooltip" title="Increase port number by one">
++1
+</button>
+</div>
+</div>
+</div>
+
+<div class="col-auto mt-4">
+<div class="input-group" data-toggle="tooltip">
+<div class="input-group-prepend">
+<span id="vps-ldapPort-label" class="input-group-text">LDAP Port</span>
+</div>
+<input id="ldapPort" type="text" class="form-control form-control-lg text-center" size="6vw" maxlength="5" aria-label="Port" aria-describedby="port-label">
+<div class="input-group-append">
+<button id="inc-ldapPort" class="btn btn-secondary btn-sm" type="button" style="font-size: 1rem" data-toggle="tooltip" title="Increase port number by one">
++1
+</button>
+</div>
+</div>
+</div>
+<div id="port-privileges-warning" class="col-12 small text-center" style="visibility: hidden">
+<span class="highlighted-warning">root</span>
+privileges required.
+</div>
+</form>
+</div>
+
+</div>
+</div>
+</div>
+
+
+<div class="col-12 col-md-6 mb-4">
+<div class="card shadow h-100">
+<div class="card-body">
+<h5 class="card-title mb-0">
+<b>🛠Misc</b>
+</h5>
+
+<div class="card-text h-100">
+<form class="row justify-content-center align-items">
+
+<div class="col-auto mt-4">
+<div class="input-group">
+<div class="input-group-prepend">
+<span id="hostname-label" class="input-group-text">Hostname</span>
+</div>
+<input id="hostname" type="text" class="form-control form-control-lg text-center px-1" size="12VW" maxlength="15" aria-label="IP" aria-describedby="ip-label">
+</div>
+</div>
+
+<div class="col-auto mt-4">
+<div class="input-group">
+<div class="input-group-prepend">
+<span id="filename-label" class="input-group-text">Filename</span>
+</div>
+<input id="filename" type="text" class="form-control form-control-lg text-center px-1" size="12VW" maxlength="15" aria-label="IP" aria-describedby="ip-label">
+</div>
+</div>
+
+<div class="col-auto mt-4">
+<div class="input-group">
+<div class="input-group-prepend">
+<span id="token-label" class="input-group-text">Token</span>
+</div>
+<input id="token" type="text" class="form-control form-control-lg text-center px-1" size="12VW" maxlength="15" aria-label="IP" aria-describedby="ip-label">
+</div>
+</div>
+
+<div class="col-auto mt-4">
+<div class="input-group">
+<div class="input-group-prepend">
+<span id="dnslog-label" class="input-group-text">Dnslog</span>
+</div>
+<input id="dnslog" type="text" class="form-control form-control-lg text-center px-1" size="12VW" maxlength="15" aria-label="Dnslog" aria-describedby="dnslog-label">
+</div>
+</div>
+
+<div class="col-auto mt-4">
+<div class="input-group">
+<div class="input-group-prepend">
+<span id="command-label" class="input-group-text">Command</span>
+</div>
+<input id="command" type="text" class="form-control form-control-lg text-center px-1 " size="200VW" aria-label="" aria-describedby="command-label">
+</div>
+</div>
+</form>
+</div>
+
+</div>
+</div>
+</div>
+
+
+<div class="col-12 col-md-6 mb-4">
+<div class="card shadow h-100">
+<div class="card-body">
+<h5 class="card-title mb-0">
+<b>🥺Target</b>
+</h5>
+
+<div class="card-text h-100">
+<form class="row justify-content-center align-items">
+
+<div class="col-auto mt-4">
+<div class="input-group">
+<div class="input-group-prepend">
+<span id="ip-label" class="input-group-text">Target IP</span>
+</div>
+<input id="targetIP" type="text" class="form-control form-control-lg text-center px-1" size="12VW" maxlength="15" aria-label="IP" aria-describedby="ip-label">
+</div>
+ </div>
+
+<div class="col-auto mt-4">
+<div class="input-group" data-toggle="tooltip">
+<div class="input-group-prepend">
+<span id="port-label" class="input-group-text">Target Port</span>
+</div>
+<input id="targetPort" type="text" class="form-control form-control-lg text-center" size="6vw" maxlength="5" aria-label="Port" aria-describedby="port-label">
+<div class="input-group-append">
+<button id="inc-targetPort" class="btn btn-secondary btn-sm" type="button" style="font-size: 1rem" data-toggle="tooltip" title="Increase port number by one">
++1
+</button>
+</div>
+</div>
+</div>
+
+<div class="col-auto mt-4">
+<div class="input-group">
+<div class="input-group-prepend">
+<span id="targetPath-label" class="input-group-text">Download Path</span>
+</div>
+<input id="downloadPath" type="text" class="form-control form-control-lg text-center px-1" size="200VW" aria-label="downloadPath" aria-describedby="downloadPath-label">
+</div>
+</div>
+
+<div class="col-auto mt-4">
+<div class="input-group">
+<div class="input-group-prepend">
+<span id="downloadFilename-label" class="input-group-text">Download Filename</span>
+</div>
+<input id="downloadFilename" type="text" class="form-control form-control-lg text-center px-1" size="15VW" aria-label="downloadFilename" aria-describedby="downloadFilename-label">
+</div>
+</div>
+</form>
+</div>
+
+</div>
+</div>
+</div>
+
+
+<div class="col-12 col-md-6 mb-4">
+<div class="card shadow h-100">
+<div class="card-body">
+
+<div class="custom-control custom-switch float-right">
+<input id="listener-advanced-switch" type="checkbox" class="custom-control-input" checked>
+<label for="listener-advanced-switch" class="custom-control-label small pr-2 pb-1" style="padding-top:2px" data-toggle="tooltip" title="Display advanced settings">
+Advanced
+</label>
+</div>
+<h5 class="card-title"><b>Listener</b></h5>
+<div class="card-text">
+
+<div class="row justify-content-center">
+<div class="col-auto position-relative" style="min-width: 15vw">
+<pre class="prompt-sign">🚀</pre>
+<pre id="listener-command" class="bg-dark border text-wrap text-break p-4 pl-5 mb-2" spellcheck="false" style="outline: none; font-size:1em;" contenteditable="true"></pre>
+</div>
+</div>
+
+<form class="row justify-content-center collapse" id="listener-advanced">
+<label for="listener-selection" class="col-auto col-form-label">Type</label>
+<div class="col-auto">
+<select class="custom-select" id="listener-selection">
+
+</select>
+</div>
+</form>
+</div>
+
+
+<button id="copy-listener" type="button" class="btn btn-primary float-right" data-toggle="tooltip" title="Copy to clipboard">
+Copy
+</button>
+</div>
+</div>
+</div>
+
+</div>
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+<li class="nav-item">
+<a class="nav-link active" id="reverse-tab" data-toggle="tab" href="#reverse" role="tab" aria-controls="reverse" aria-selected="true">Reverse</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" id="bind-tab" data-toggle="tab" href="#bind" role="tab" aria-controls="bind" aria-selected="false">Bind</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" id="msfvenom-tab" data-toggle="tab" href="#msfvenom" role="tab" aria-controls="msfvenom" aria-selected="false">MSFVenom</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" id="msfconsole-tab" data-toggle="tab" href="#msfconsole" role="tab" aria-controls="msfconsole" aria-selected="false">MSFConsole</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" id="stowaway-tab" data-toggle="tab" href="#stowaway" role="tab" aria-controls="stowaway" aria-selected="false">Stowaway</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" id="jndinjection-tab" data-toggle="tab" href="#jndinjection" role="tab" aria-controls="jndinjection" aria-selected="false">JNDI Injection</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" id="ysoui-tab" data-toggle="tab" href="#ysoui" role="tab" aria-controls="ysoui" aria-selected="false">Ysoui</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" id="misc-tab" data-toggle="tab" href="#misc" role="tab" aria-controls="misc" aria-selected="false">Misc</a>
+</li>
+
+</ul>
+<div class="tab-content">
+
+<div class="tab-pane active" id="reverse" role="tabpanel" aria-labelledby="reverse-tab">
+<div class="card shadow mb-5">
+<div class="card-body">
+
+<div class="custom-control custom-switch float-right">
+<input id="revshell-advanced-switch" type="checkbox" class="custom-control-input" checked>
+<label for="revshell-advanced-switch" class="custom-control-label small pr-2 pb-1" style="padding-top:2px" data-toggle="tooltip" title="Display all advanced settings">
+Show Advanced
+</label>
+<img src="https://freeme.cc/redteam-cmd-gen/assets/floppy-disk-solid.svg" class="download-svg" data-toggle="tooltip" title="Download Payload">
+</div>
+
+
+<div class="row">
+<label for="os-options" class="col-auto col-form-label float-left" style="font-size:1rem">OS</label>
+<div class="col-auto">
+<select id="os-options" class="custom-select">
+<option class="os-item" value="all">All</option>
+<option class="os-item" value="linux">Linux</option>
+<option class="os-item" value="windows">Windows</option>
+<option class="os-item" value="mac">Mac</option>
+</select>
+</div>
+</div>
+
+<div class="card-text mt-4">
+<div class="row">
+
+<div class="col-12 col-md-3">
+<div id="reverse-shell-selection" class="list-group overflow-auto" style="max-height: 520px">
+
+</div>
+</div>
+
+<div class="col-12 col-md-9 d-flex flex-column">
+
+<div class="row flex-grow-1">
+<div class="col position-relative">
+<pre class="prompt-sign">🚀</pre>
+<pre id="reverse-shell-command" class="bg-dark border pre-wrap text-break p-4 pl-5" spellcheck="false" style="outline: none; font-size:1em;" contenteditable="true"></pre>
+</div>
+</div>
+
+<form class="row justify-content-center collapse" id="revshell-advanced">
+
+<div class="col-auto mr-3">
+<div class="row">
+<label for="shell" class="col-auto col-form-label">Shell</label>
+<div class="col-auto">
+<select id="shell" class="custom-select">
+
+</select>
+</div>
+</div>
+</div>
+
+<div class="col-auto ml-3">
+<div class="form-group row">
+<label for="encoding" class="col-auto col-form-label">Encoding</label>
+<div class="col-auto">
+<select id="encoding" class="custom-select">
+<option value="None">None</option>
+<option value="encodeURL">URL Encode</option>
+ <option value="encodeURLDouble">Double URL Encode</option>
+<option value="Base64">Base64</option>
+</select>
+</div>
+</div>
+</div>
+</form>
+
+<div class="row justify-content-end mr-1">
+
+<div id="clipboard-toast" class="toast position-fixed text-white" data-delay="1200" style="bottom: 16px; left: 50%; transform: translateX(-50%); background: rgba(32, 32, 32, .85)">
+</div>
+<div id="clipboard-failure-toast" class="toast position-fixed text-white" data-delay="1200" style="bottom: 16px; left: 50%; transform: translateX(-50%); background: rgba(255, 0, 0, .85)">
+</div>
+
+
+
+<button type="button" class="raw-listener btn btn-primary float-right mr-3" data-toggle="tooltip" title="View raw">
+Raw
+</button>
+
+<button id="copy-reverse-shell-command" data-toggle="tooltip" title="Copy to clipboard" type="button" class="btn btn-primary float-right">
+Copy
+</button>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+<div class="tab-pane" id="bind" role="tabpanel" aria-labelledby="bind-tab">
+<div class="card shadow mb-5">
+<div class="card-body">
+<img src="https://freeme.cc/redteam-cmd-gen/assets/floppy-disk-solid.svg" class="download-svg float-right" data-toggle="tooltip" title="Download Payload">
+<div class="card-text mt-4">
+<div class="row">
+
+<div class="col-12 col-md-3">
+<div id="bind-shell-selection" class="list-group overflow-auto" style="max-height: 520px">
+
+</div>
+</div>
+
+<div class="col-12 col-md-9 d-flex flex-column">
+
+ <div class="row flex-grow-1">
+<div class="col position-relative">
+<pre class="prompt-sign">🚀</pre>
+<pre id="bind-shell-command" class="bg-dark border pre-wrap text-break p-4 pl-5" spellcheck="false" style="outline: none; font-size:1em;" contenteditable="true"></pre>
+</div>
+</div>
+<div class="row justify-content-end mr-1">
+
+
+
+<button type="button" class="raw-listener btn btn-primary float-right mr-3" data-toggle="tooltip" title="View raw">
+Raw
+</button>
+
+<button id="copy-bind-shell-command" data-toggle="tooltip" title="Copy to clipboard" type="button" class="btn btn-primary float-right">
+Copy
+</button>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="tab-pane" id="msfvenom" role="tabpanel" aria-labelledby="msfvenom-tab">
+<div class="card shadow mb-5">
+<div class="card-body">
+<img src="https://freeme.cc/redteam-cmd-gen/assets/floppy-disk-solid.svg" class="download-svg float-right" data-toggle="tooltip" title="Download Payload">
+<div class="card-text mt-4">
+<div class="row">
+
+<div class="col-12 col-md-3">
+<div id="msfvenom-selection" class="list-group overflow-auto" style="max-height: 520px">
+
+</div>
+</div>
+
+<div class="col-12 col-md-9 d-flex flex-column">
+
+<div class="row flex-grow-1">
+<div class="col position-relative">
+<pre class="prompt-sign">🚀</pre>
+<pre id="msfvenom-command" class="bg-dark border pre-wrap text-break p-4 pl-5" spellcheck="false" style="outline: none; font-size:1em;" contenteditable="true"></pre>
+</div>
+</div>
+<div class="row justify-content-end mr-1">
+
+ 
+
+<button type="button" class="raw-listener btn btn-primary float-right mr-3" data-toggle="tooltip" title="View raw">
+Raw
+</button>
+
+<button id="copy-msfvenom-command" data-toggle="tooltip" title="Copy to clipboard" type="button" class="btn btn-primary float-right">
+Copy
+</button>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="tab-pane" id="msfconsole" role="tabpanel" aria-labelledby="msfconsole-tab">
+<div class="card shadow mb-5">
+<div class="card-body">
+<img src="https://freeme.cc/redteam-cmd-gen/assets/floppy-disk-solid.svg" class="download-svg float-right" data-toggle="tooltip" title="Download Payload">
+<div class="card-text mt-4">
+<div class="row">
+
+<div class="col-12 col-md-3">
+<div id="msfconsole-selection" class="list-group overflow-auto" style="max-height: 520px">
+
+</div>
+</div>
+
+<div class="col-12 col-md-9 d-flex flex-column">
+
+<div class="row flex-grow-1">
+<div class="col position-relative">
+<pre class="prompt-sign">🚀</pre>
+<pre id="msfconsole-command" class="bg-dark border pre-wrap text-break p-4 pl-5" spellcheck="false" style="outline: none; font-size:1em;" contenteditable="true"></pre>
+</div>
+</div>
+<div class="row justify-content-end mr-1">
+
+
+
+<button type="button" class="raw-listener btn btn-primary float-right mr-3" data-toggle="tooltip" title="View raw">
+Raw
+</button>
+
+<button id="copy-msfconsole-command" data-toggle="tooltip" title="Copy to clipboard" type="button" class="btn btn-primary float-right">
+Copy
+</button>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="tab-pane" id="stowaway" role="tabpanel" aria-labelledby="stowaway-tab">
+<div class="card shadow mb-5">
+<div class="card-body">
+<img src="https://freeme.cc/redteam-cmd-gen/assets/floppy-disk-solid.svg" class="download-svg float-right" data-toggle="tooltip" title="Download Payload">
+<div class="card-text mt-4">
+<div class="row">
+
+<div class="col-12 col-md-3">
+<div id="stowaway-selection" class="list-group overflow-auto" style="max-height: 520px">
+
+</div>
+</div>
+
+<div class="col-12 col-md-9 d-flex flex-column">
+
+<div class="row flex-grow-1">
+<div class="col position-relative">
+<pre class="prompt-sign">🚀</pre>
+<pre id="stowaway-command" class="bg-dark border pre-wrap text-break p-4 pl-5" spellcheck="false" style="outline: none; font-size:1em;" contenteditable="true"></pre>
+</div>
+</div>
+<div class="row justify-content-end mr-1">
+
+
+
+<button type="button" class="raw-listener btn btn-primary float-right mr-3" data-toggle="tooltip" title="View raw">
+Raw
+</button>
+
+<button id="copy-stowaway-command" data-toggle="tooltip" title="Copy to clipboard" type="button" class="btn btn-primary float-right">
+Copy
+</button>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="tab-pane" id="jndinjection" role="tabpanel" aria-labelledby="jndinjection-tab">
+<div class="card shadow mb-5">
+<div class="card-body">
+<img src="https://freeme.cc/redteam-cmd-gen/assets/floppy-disk-solid.svg" class="download-svg float-right" data-toggle="tooltip" title="Download Payload">
+<div class="card-text mt-4">
+<div class="row">
+
+<div class="col-12 col-md-3">
+<div id="jndinjection-selection" class="list-group overflow-auto" style="max-height: 520px">
+
+</div>
+</div>
+
+<div class="col-12 col-md-9 d-flex flex-column">
+
+<div class="row flex-grow-1">
+<div class="col position-relative">
+<pre class="prompt-sign">🚀</pre>
+<pre id="jndinjection-command" class="bg-dark border pre-wrap text-break p-4 pl-5" spellcheck="false" style="outline: none; font-size:1em;" contenteditable="true"></pre>
+</div>
+</div>
+<div class="row justify-content-end mr-1">
+
+
+
+<button type="button" class="raw-listener btn btn-primary float-right mr-3" data-toggle="tooltip" title="View raw">
+Raw
+</button>
+
+<button id="copy-jndinjection-command" data-toggle="tooltip" title="Copy to clipboard" type="button" class="btn btn-primary float-right">
+Copy
+</button>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="tab-pane" id="ysoui" role="tabpanel" aria-labelledby="ysoui-tab">
+<div class="card shadow mb-5">
+<div class="card-body">
+<img src="https://freeme.cc/redteam-cmd-gen/assets/floppy-disk-solid.svg" class="download-svg float-right" data-toggle="tooltip" title="Download Payload">
+<div class="card-text mt-4">
+<div class="row">
+
+<div class="col-12 col-md-3">
+<div id="ysoui-selection" class="list-group overflow-auto" style="max-height: 520px">
+
+</div>
+</div>
+
+<div class="col-12 col-md-9 d-flex flex-column">
+
+<div class="row flex-grow-1">
+<div class="col position-relative">
+<pre class="prompt-sign">🚀</pre>
+<pre id="ysoui-command" class="bg-dark border pre-wrap text-break p-4 pl-5" spellcheck="false" style="outline: none; font-size:1em;" contenteditable="true"></pre>
+</div>
+</div>
+<div class="row justify-content-end mr-1">
+
+
+
+<button type="button" class="raw-listener btn btn-primary float-right mr-3" data-toggle="tooltip" title="View raw">
+Raw
+</button>
+
+<button id="copy-ysoui-command" data-toggle="tooltip" title="Copy to clipboard" type="button" class="btn btn-primary float-right">
+Copy
+</button>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="tab-pane" id="misc" role="tabpanel" aria-labelledby="misc-tab">
+<div class="card shadow mb-5">
+<div class="card-body">
+<img src="https://freeme.cc/redteam-cmd-gen/assets/floppy-disk-solid.svg" class="download-svg float-right" data-toggle="tooltip" title="Download Payload">
+<div class="card-text mt-4">
+<div class="row">
+
+<div class="col-12 col-md-3">
+<div id="misc-selection" class="list-group overflow-auto" style="max-height: 520px">
+
+</div>
+</div>
+
+<div class="col-12 col-md-9 d-flex flex-column">
+
+<div class="row flex-grow-1">
+<div class="col position-relative">
+<pre class="prompt-sign">🚀</pre>
+<pre id="misc-command" class="bg-dark border pre-wrap text-break p-4 pl-5" spellcheck="false" style="outline: none; font-size:1em;" contenteditable="true"></pre>
+</div>
+</div>
+<div class="row justify-content-end mr-1">
+
+
+
+<button type="button" class="raw-listener btn btn-primary float-right mr-3" data-toggle="tooltip" title="View raw">
+Raw
+</button>
+
+<button id="copy-misc-command" data-toggle="tooltip" title="Copy to clipboard" type="button" class="btn btn-primary float-right">
+Copy
+</button>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<script src="https://freeme.cc/redteam-cmd-gen/js/data.js" charset="UTF-8"></script>
+
+<script src="https://freeme.cc/redteam-cmd-gen/js/raw-link.js" charset="UTF-8"></script>
+
+<script charset="UTF-8" src="https://freeme.cc/redteam-cmd-gen/js/light-mode-switch.js"></script>
+
+<script charset="UTF-8" src="https://freeme.cc/redteam-cmd-gen/js/script.js"></script>
+</div>
+</div>
+<a target="_blank" href="https://freeme.cc/"><h3 style="text-align: center">FreeMe</h3></a>
+</body>
+<script charset="UTF-8" src="https://freeme.cc/redteam-cmd-gen/assets/jquery-3.5.1.slim.min.js"></script>
+<script charset="UTF-8" src="https://freeme.cc/redteam-cmd-gen/assets/popper-1.16.1.min.js"></script>
+<script charset="UTF-8" src="https://freeme.cc/redteam-cmd-gen/assets/bootstrap-4.5.2.min.js"></script>
+<script charset="UTF-8" src="https://freeme.cc/redteam-cmd-gen/assets/axios.min.js"></script>
+</html>
