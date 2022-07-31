@@ -12,7 +12,7 @@
 	<atom:link href="https://freeme.cc/feed" rel="self" type="application/rss+xml" />
 	<link>https://freeme.cc/</link>
 	<description></description>
-	<lastBuildDate>Tue, 12 Jul 2022 18:57:05 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 31 Jul 2022 23:12:15 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,21 @@
 	1	</sy:updateFrequency>
 	
 	<item>
+		<title>解决Acunetix14.9破解后扫描失败的问题</title>
+		<link>https://freeme.cc/385.html</link>
+		
+		<dc:creator><![CDATA[Alien]]></dc:creator>
+		<pubDate>Sun, 31 Jul 2022 22:52:10 +0000</pubDate>
+				<category><![CDATA[Tools]]></category>
+		<category><![CDATA[Awvs]]></category>
+		<guid isPermaLink="false">https://freeme.cc/?p=385</guid>
+
+					<description><![CDATA[Acunetix版本14.9.220713150 解决AWVS破解后扫描失败 { "status": "fai [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
 		<title>密码重置漏洞备忘录</title>
 		<link>https://freeme.cc/371.html</link>
 		
@@ -167,26 +182,6 @@
 					<description><![CDATA[项目地址 https://github.com/s0md3v/Arjun 当我们发现敏感文件,且前端没有找到传 [&#8230;]]]></description>
 		
 					<wfw:commentRss>https://freeme.cc/211.html/feed</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>C++编译后控制台窗口隐藏失败的坑</title>
-		<link>https://freeme.cc/165.html</link>
-					<comments>https://freeme.cc/165.html#respond</comments>
-		
-		<dc:creator><![CDATA[Alien]]></dc:creator>
-		<pubDate>Tue, 31 May 2022 02:18:54 +0000</pubDate>
-				<category><![CDATA[Knowledge]]></category>
-		<category><![CDATA[security]]></category>
-		<category><![CDATA[bypassav]]></category>
-		<category><![CDATA[C++]]></category>
-		<guid isPermaLink="false">https://freeme.cc/?p=165</guid>
-
-					<description><![CDATA[今天BypassAv时踩了一个坑 记录一下 玩web,C++很少有交集.shellcode加载器编译时使用了  [&#8230;]]]></description>
-		
-					<wfw:commentRss>https://freeme.cc/165.html/feed</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
