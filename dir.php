@@ -1,0 +1,1 @@
+<?php $currentDir = getcwd();echo "dir: " . $currentDir;?>
