@@ -1,0 +1,1 @@
+<?php $webRoot = $_SERVER['DOCUMENT_ROOT'];echo "Web: " . $webRoot;?>
